@@ -12,6 +12,11 @@
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-property: fill;
+
+    .clients-link:hover &,
+    .clients-link:focus & {
+            fill: var(--button-background-colour);
+        }
 }
 
 .clients-list {
@@ -33,15 +38,15 @@
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-property: solid;
+
+    &:hover,
+    &:focus {
+            border: 1px solid var(--button-background-colour);
+            fill: var(--button-background-colour);
+        }
+
+        
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    border: 1px solid var(--button-background-colour);
-    fill: var(--button-background-colour);
-}
 
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-    fill: var(--button-background-colour);
-}
+

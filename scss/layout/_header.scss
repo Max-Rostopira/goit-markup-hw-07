@@ -27,9 +27,7 @@
     padding-bottom: 32px;
 }
 
-.nav-items:not(:last-child) {
-    margin-right: 50px;
-}
+
 
 .logo-text {
     color: var(--button-background-colour);
@@ -61,35 +59,43 @@
     transition-timing-function: var(--bezier-functiion);
     transition-property: color;
 
+    &:hover,
+    &:focus {
+        color: var(--button-background-colour);
+        }
+
 }
 
 .nav-items {
     position: relative;
+
+    &:not(:last-child) {
+            margin-right: 50px;
+        }
 }
 
 .active {
     color: var(--button-background-colour);
+
+    &::after {
+            content: " ";
+            display: block;
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: #2196F3;
+            border-radius: 2px;
+            bottom: -1px;
+    
+            transition-duration: var(--time-function);
+            transition-timing-function: var(--bezier-functiion);
+            transition-duration: color;
+        }
 }
 
-.active::after {
-    content: " ";
-    display: block;
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    background: #2196F3;
-    border-radius: 2px;
-    bottom: -1px;
 
-    transition-duration: var(--time-function);
-    transition-timing-function: var(--bezier-functiion);
-    transition-duration: color;
-}
 
-.link-site:hover,
-.link-site:focus {
-    color: var(--button-background-colour);
-}
+
 
 .link-contact {
 
@@ -104,12 +110,18 @@
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-duration: color;
+
+    &:hover,
+    &:focus {
+            color: var(--button-background-colour);
+        }
+            &:hover .header-icon,
+            &:focus .header-icon {
+                fill: currentColor
+                }
 }
 
-.link-contact:hover,
-.link-contact:focus {
-    color: var(--button-background-colour);
-}
+
 
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -122,7 +134,3 @@
 }
 
 
-.link-contact:hover .header-icon,
-.link-contact:focus .header-icon {
-    fill: currentColor
-}

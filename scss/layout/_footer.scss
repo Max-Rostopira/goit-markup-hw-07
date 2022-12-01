@@ -33,16 +33,19 @@
     transition-timing-function: var(--bezier-functiion);
     transition-property: color;
 
+    &:hover,
+    &:focus {
+        color: var(--button-background-colour);
+        }
+        &:visited {
+            color: #FFFFFF;
+        }
+
 }
 
-.adress-title:hover,
-.adress-title:focus {
-    color: var(--button-background-colour);
-}
 
-.adress-title:visited {
-    color: #FFFFFF;
-}
+
+
 
 
 .foter-link-contact {
@@ -53,12 +56,14 @@
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-property: color;
+
+    &:hover,
+    &:focus {
+        color: #2196F3;
+        }
 }
 
-.foter-link-contact:hover,
-.foter-link-contact:focus {
-    color: #2196F3;
-}
+
 
 .footer-address {
     margin-bottom: 9px;

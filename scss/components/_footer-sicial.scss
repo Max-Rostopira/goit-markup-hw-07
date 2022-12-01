@@ -19,18 +19,25 @@
     transition-timing-function: var(--bezier-functiion);
     transition-property: background-color;
 
+    &:hover,
+    &:focus {
+            background-color: var(--button-background-colour);
+        }
+
+}
+
+.cotiale-footer-icon {
+    fill: #FFFFFF;
+
+    &:hover,
+    &:focus {
+            fill: white;
+        }
 }
 
 
-.cotiale-footer-link:hover,
-.cotiale-footer-link:focus {
-    background-color: var(--button-background-colour);
-}
 
-.cotiale-footer-icon:hover,
-.cotiale-footer-icon:focus {
-    fill: white;
-}
+
 
 .addres-container {
     justify-content: space-between;
@@ -55,6 +62,3 @@
     color: #FFFFFF;
 }
 
-.cotiale-footer-icon {
-    fill: #FFFFFF;
-}

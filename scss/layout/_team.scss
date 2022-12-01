@@ -70,13 +70,17 @@
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-property: background-color;
+
+    &:hover,
+    &:focus {
+        background-color: var(--button-background-colour);
+        }
+
+        
 }
 
 
-.cotiale-link:hover,
-.cotiale-link:focus {
-    background-color: var(--button-background-colour);
-}
+
 
 .cotiale-icon {
     fill: #AFB1B8;
@@ -84,12 +88,13 @@
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-property: fill;
+
+    .cotiale-link:hover &,
+    .cotiale-link:focus & {
+            fill: #EEEEEE;
+        }
 }
 
-.cotiale-link:hover .cotiale-icon,
-.cotiale-link:focus .cotiale-icon {
-    fill: #EEEEEE;
-}
 
 
 .cotiale-list {
