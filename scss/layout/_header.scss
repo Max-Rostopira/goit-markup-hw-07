@@ -1,10 +1,17 @@
-
 .navList,
 .contactList {
     display: flex;
 }
 
+.mainNav{
+    display: flex;
+}
+
 .navContainer {
+   display: flex;
+}
+
+.pageHeader{
     display: flex;
 }
 
@@ -31,6 +38,7 @@
 }
 
 .mainNav__logo {
+    
     padding-top: 24px;
     padding-bottom: 24px;
     color: var(--secondary-text-colour);
@@ -71,13 +79,6 @@
         }
 }
 
-.nav__items {
-    position: relative;
-
-    &:not(:last-child) {
-        margin-right: 50px;
-    }
-}
 
 .navList__linkActive {
     color: var(--button-background-colour);
