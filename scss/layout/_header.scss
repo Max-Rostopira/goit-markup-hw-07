@@ -1,27 +1,24 @@
-.main-nav {
+
+.navList,
+.contactList {
     display: flex;
 }
 
-.head-list,
-.tell-list {
+.navContainer {
     display: flex;
 }
 
-.nav-container {
-    display: flex;
-}
-
-.tell-list {
+.contactList {
     margin-left: auto;
 }
 
-.head-list {
+.navList {
     margin-left: 94px;
 
 }
 
-.link-site,
-.link-contact {
+.navList__link,
+.contactList__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -29,11 +26,11 @@
 
 
 
-.logo-text {
+.mainNav__logo-text {
     color: var(--button-background-colour);
 }
 
-.logo {
+.mainNav__logo {
     padding-top: 24px;
     padding-bottom: 24px;
     color: var(--secondary-text-colour);
@@ -47,7 +44,7 @@
 }
 
 
-.link-site {
+.navList__link {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: var(--secondary-text-colour);
@@ -66,7 +63,7 @@
 
 }
 
-.nav-items {
+.nav__items {
     position: relative;
 
     &:not(:last-child) {
@@ -74,7 +71,15 @@
         }
 }
 
-.active {
+.nav__items {
+    position: relative;
+
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
+}
+
+.navList__linkActive {
     color: var(--button-background-colour);
 
     &::after {
@@ -97,7 +102,7 @@
 
 
 
-.link-contact {
+.contactList__link {
 
     align-items: center;
 
@@ -115,19 +120,19 @@
     &:focus {
             color: var(--button-background-colour);
         }
-            &:hover .header-icon,
-            &:focus .header-icon {
+            &:hover .contactList__icon,
+            &:focus .contactList__icon {
                 fill: currentColor
                 }
 }
 
 
 
-.header {
+.pageHeader {
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-icon {
+.contactList__icon {
     fill: #757575;
     display: flex;
     margin-right: 10px;

@@ -1,4 +1,4 @@
-.footer-modal-title {
+.footerModal__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1;
@@ -8,12 +8,12 @@
     color: #FFFFFF;
 }
 
-.footer-form {
+.footerForm {
     display: flex;
     margin-top: 20px;
 }
 
-.footer-elements {
+.footerForm__input {
     margin-right: 12px;
 
     padding-left: 16px;
@@ -40,7 +40,7 @@
 
 
 
-.footer-button {
+.footerForm__button {
     display: flex;
 
     width: 200px;
@@ -78,6 +78,6 @@
 
 
 
-.footer-modal-icon {
+.footerForm__icon {
     margin-left: 10px;
 }

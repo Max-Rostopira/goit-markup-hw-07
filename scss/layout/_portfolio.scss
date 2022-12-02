@@ -1,21 +1,21 @@
-.portfolio-section {
+.portfolioSection {
     padding-top: 94px;
     padding-bottom: 94px;
 
 }
 
-.portfolio-nav {
+.portfolioNav {
     margin-bottom: 50px;
 
     display: flex;
     justify-content: center;
 }
 
-.portfolio-list:not(:last-child) {
+.portfolioNav__item:not(:last-child) {
     margin-right: 8px;
 }
 
-.button-portfolio {
+.portfolioNav__button {
     padding-left: 22px;
     padding-right: 22px;
     padding-top: 6px;
@@ -53,7 +53,7 @@
 
 
 
-.projekt-portfolio {
+.portfolioProject__title {
     margin-bottom: 4px;
 
     font-size: 18px;
@@ -62,13 +62,13 @@
     color: var(--secondary-text-colour);
 }
 
-.projekt-type {
+.portfolioProject__subtitle {
     line-height: 1.9;
     letter-spacing: 0.03em;
     color: var(--primary-text-colour);
 }
 
-.project-container {
+.portfolioProject {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 24px;
@@ -79,14 +79,14 @@
     border-right: 1px solid #EEEEEE;
 }
 
-.portfolio-example {
+.portfolioList {
 
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.portfolio-card {
+.portfolioList__item {
     width: 370px;
 
     &:nth-child(3n) {
@@ -94,7 +94,7 @@
         }
 }
 
-.portfolio-link {
+.portfolioList__link {
     outline: transparent;
     display: block;
 
@@ -103,8 +103,8 @@
             box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
         }
 
-                &:hover .portfolio-overlay,
-                &:focus .portfolio-overlay {
+                &:hover .portfolioCard__overlay,
+                &:focus .portfolioCard__overlay {
                     transform: translateY(0);
                 }
 }
@@ -115,13 +115,13 @@
 
 /*======================== ПОРТФОЛИО ОВЕРЛЕЙ =========================*/
 
-.portfolio-box {
+.portfolioCard {
 
     overflow: hidden;
     position: relative;
 }
 
-.portfolio-overlay {
+.portfolioCard__overlay {
 
 
     position: absolute;
@@ -136,7 +136,7 @@
 }
 
 
-.portfolio-overlay-text {
+.portfolioCard__overlayText {
 
     display: inline-flex;
 

@@ -1,4 +1,4 @@
-.work-card {
+.teamList__item {
 
     width: 270px;
 
@@ -7,7 +7,7 @@
     background-color: #FFFFFF;
 }
 
-.name-container {
+.personCard {
 
     padding-top: 30px;
     padding-bottom: 30px;
@@ -18,7 +18,7 @@
 
 
 
-.team-section {
+.teamSection {
     padding-top: 94px;
     padding-bottom: 94px;
     text-align: center;
@@ -26,7 +26,7 @@
 
 }
 
-.team-title {
+.teamSection__title {
     margin-bottom: 50px;
 
     font-weight: 700;
@@ -35,7 +35,7 @@
     color: var(--secondary-text-colour);
 }
 
-.name {
+.personCard__title {
 
     font-size: 16px;
     line-height: 1.2;
@@ -43,7 +43,7 @@
     letter-spacing: 0.03em;
 }
 
-.name-work {
+.personCard__subtitle {
     margin-top: 10px;
 
     font-size: 16px;
@@ -52,12 +52,12 @@
     letter-spacing: 0.03em;
 }
 
-.team-list {
+.teamList {
     display: flex;
     gap: 30px;
 }
 
-.cotiale-link {
+.cotialeList__link {
 
     display: flex;
     justify-content: center;
@@ -82,22 +82,22 @@
 
 
 
-.cotiale-icon {
+.cotialeList__icon {
     fill: #AFB1B8;
 
     transition-duration: var(--time-function);
     transition-timing-function: var(--bezier-functiion);
     transition-property: fill;
 
-    .cotiale-link:hover &,
-    .cotiale-link:focus & {
+    .cotialeList__link:hover &,
+    .cotialeList__link:focus & {
             fill: #EEEEEE;
         }
 }
 
 
 
-.cotiale-list {
+.cotialeList {
     margin-top: 16px;
     gap: 10px;
 

@@ -1,4 +1,4 @@
-.work-section {
+.workSection {
     padding-top: 0;
     padding-bottom: 94px;
 
@@ -6,7 +6,7 @@
 }
 
 
-.work-title {
+.workSection__title {
     margin-bottom: 50px;
 
     text-align: center;
@@ -16,16 +16,16 @@
     color: var(--secondary-text-colour);
 }
 
-.work-list {
+.workList {
     display: flex;
     gap: 30px;
 }
 
-.work-items {
+.workList__item {
     position: relative;
 }
 
-.work-subtitle {
+.workList__subtitle {
     text-align: center;
     padding-top: 27px;
     padding-bottom: 27px;

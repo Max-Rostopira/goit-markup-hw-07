@@ -1,11 +1,11 @@
-.footer {
+.pageFooter {
     padding-top: 60px;
     padding-bottom: 60px;
 
     background-color: #2F303A;
 }
 
-.logo-footer {
+.pageFooter__logo {
     margin-bottom: 20px;
 
     display: block;
@@ -17,7 +17,7 @@
     letter-spacing: 0.03em;
 }
 
-.address-footer {
+.pageFooterAddress {
     font-style: normal;
 
 }
@@ -48,7 +48,7 @@
 
 
 
-.foter-link-contact {
+.pageFooter__link {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -65,10 +65,10 @@
 
 
 
-.footer-address {
+.pageFooter__itemAdress {
     margin-bottom: 9px;
 }
 
-.footer-mail {
+.pageFooter__itemMail {
     margin-bottom: 9px;
 }

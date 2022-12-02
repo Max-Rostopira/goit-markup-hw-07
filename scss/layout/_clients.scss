@@ -1,10 +1,10 @@
-.clients-section {
+.clientsSection {
     padding-top: 94px;
     padding-bottom: 94px;
     text-align: center;
 }
 
-.clients-icon {
+.clientsList__icon {
     width: 106px;
     height: 60px;
     fill: #AFB1B8;
@@ -13,18 +13,18 @@
     transition-timing-function: var(--bezier-functiion);
     transition-property: fill;
 
-    .clients-link:hover &,
-    .clients-link:focus & {
+    .clientsList__link:hover &,
+    .clientsList__link:focus & {
             fill: var(--button-background-colour);
         }
 }
 
-.clients-list {
+.clientsList {
     display: flex;
     gap: 30px;
 }
 
-.clients-link {
+.clientsList__link {
     align-items: center;
     justify-content: center;
 

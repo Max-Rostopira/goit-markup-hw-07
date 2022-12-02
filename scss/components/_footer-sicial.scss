@@ -1,4 +1,4 @@
-.cotiale-footer-list {
+.pageFooterCotial__list {
     margin-top: 16px;
     gap: 10px;
 
@@ -6,7 +6,7 @@
 }
 
 
-.cotiale-footer-link {
+.pageFooterCotial__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 
 }
 
-.cotiale-footer-icon {
+.pageFooterCotial__icon {
     fill: #FFFFFF;
 
     &:hover,
@@ -45,13 +45,13 @@
     align-items: baseline;
 }
 
-.cotiale-footer-container {
+.pageFooterCotial {
 
     display: block;
     margin-left: 70px;
 }
 
-.footer-connect {
+.pageFooterCotial__title {
 
     font-style: normal;
     font-weight: 700;

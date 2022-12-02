@@ -1,4 +1,4 @@
-.main-section {
+.hero {
 
     background-image: linear-gradient(to right,
             rgba(47, 48, 58, 0.4),
@@ -18,7 +18,7 @@
 }
 
 
-.main-title {
+.hero__title {
     margin-bottom: 30px;
     max-width: 700px;
 
@@ -37,7 +37,7 @@
 
 
 
-.button-main {
+.hero__button {
 
     padding-left: 32px;
     padding-right: 32px;
